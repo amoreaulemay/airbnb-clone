@@ -1,7 +1,8 @@
-import React from "react";
+import React from "react"
+import "./Gallery.css";
 
 export default class Gallery extends React.Component {
     render() {
-        return <section className="gallery--wrapper"></section>;
+        return <div className="Gallery--wrapper"></div>;
     }
 }

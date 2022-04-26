@@ -1,7 +1,8 @@
-import React from "react";
+import React from "react"
+import "./HeroText.css";
 
 export default class HeroText extends React.Component {
     render() {
-        return <section className="HeroText"></section>;
+        return <div className="HeroText--wrapper"></div>;
     }
 }

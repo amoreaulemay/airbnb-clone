@@ -1,14 +1,8 @@
-import React from "react";
-import Gallery from "../Gallery/Gallery";
-import HeroText from "../HeroText/HeroText";
+import React from "react"
+import "./Hero.css";
 
 export default class Hero extends React.Component {
     render() {
-        return (
-            <section className="hero--wrapper">
-                <Gallery />
-                <HeroText />
-            </section>
-        );
+        return <div className="Hero--wrapper"></div>;
     }
 }

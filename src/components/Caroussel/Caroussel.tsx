@@ -1,7 +1,8 @@
-import React from "react";
+import React from "react"
+import "./Caroussel.css";
 
 export default class Caroussel extends React.Component {
     render() {
-        return <section className="caroussel--wrapper"></section>;
+        return <div className="Caroussel--wrapper"></div>;
     }
 }
