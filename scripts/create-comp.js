@@ -36,7 +36,7 @@ args.forEach(e => {
     const cssFileContents = `/* Base class for ${e} */
 .${e}--wrapper {}`;
 
-    const jsxFileContents = `import React from \"react\"
+    const jsxFileContents = `import React from \"react\";
 import \"./${e}.css\";
 
 export default class ${e} extends React.Component {

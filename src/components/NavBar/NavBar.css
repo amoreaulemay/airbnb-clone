@@ -1,2 +1,12 @@
 /* Base class for NavBar */
-.NavBar--wrapper {}
+.NavBar--wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 60px);
+    align-items: center;
+    padding: 22px 30px;
+    background: white;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    margin-bottom: 26px;
+}

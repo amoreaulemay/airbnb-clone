@@ -1,0 +1,8 @@
+.AirBnBExperiences--wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow-x: hidden;
+    min-height: fit-content;
+}

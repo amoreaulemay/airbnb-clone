@@ -1,0 +1,4 @@
+/* Base class for NavBarLogo */
+.NavBarLogo--wrapper > svg {
+    fill: rgba(255, 90, 95, 1);
+}
