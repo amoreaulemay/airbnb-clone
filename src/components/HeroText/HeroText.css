@@ -1,2 +1,24 @@
 /* Base class for HeroText */
-.HeroText--wrapper {}
+.HeroText--wrapper {
+    font-family: "Poppins", sans-serif;
+}
+
+.HeroText--wrapper h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+    color: black;
+    margin-block-start: 0;
+    margin-block-end: 16px;
+}
+
+.HeroText--wrapper p {
+    max-width: 303px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+    margin: 0;
+    color: #222222;
+}

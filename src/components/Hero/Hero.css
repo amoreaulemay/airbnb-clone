@@ -1,2 +1,4 @@
 /* Base class for Hero */
-.Hero--wrapper {}
+.Hero--wrapper {
+    padding: 0 36px;
+}
