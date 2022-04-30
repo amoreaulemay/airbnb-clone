@@ -1,0 +1,23 @@
+/* Base class for HeroImage */
+.HeroImage--wrapper {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    aspect-ratio: 3 / 4;
+    background: url(https://picsum.photos/600/600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 25px;
+    margin-bottom: 26px;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 600px) {
+    .HeroImage--wrapper {
+        aspect-ratio: 4 / 3;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

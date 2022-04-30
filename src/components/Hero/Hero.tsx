@@ -1,6 +1,6 @@
 import React from "react";
 import { heroGenerator } from "../../data/hero_generator/heroGenerator";
-import Gallery from "../Gallery/Gallery";
+import HeroImage from "../HeroImage/HeroImage";
 import HeroText from "../HeroText/HeroText";
 import "./Hero.css";
 
@@ -10,7 +10,7 @@ export default class Hero extends React.Component {
     render() {
         return (
             <section className="Hero--wrapper">
-                <Gallery />
+                <HeroImage />
                 <HeroText
                     title={this._heroText.title}
                     message={this._heroText.message}
