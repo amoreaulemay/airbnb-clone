@@ -1,2 +1,11 @@
 /* Base class for Caroussel */
-.Caroussel--wrapper {}
+.Caroussel--wrapper {
+    padding: 0 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    width: fit-content;
+}

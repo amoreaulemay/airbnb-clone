@@ -1,7 +1,12 @@
-import React from "react"
+import React from "react";
+import { CarousselElementModel } from "../../models/CarousselElementModel";
 import "./CarousselElement.css";
 
-export default class CarousselElement extends React.Component {
+interface CarousselElementProps {
+    data: CarousselElementModel;
+}
+
+export default class CarousselElement extends React.Component<CarousselElementProps> {
     render() {
         return <div className="CarousselElement--wrapper"></div>;
     }

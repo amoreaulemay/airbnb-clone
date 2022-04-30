@@ -62,6 +62,11 @@ export interface CarousselElementModelProps {
      * The price of the event. Will be rounded to the nearest integer.
      */
     price: number;
+
+    /**
+     * The activity's unique id.
+     */
+    id: string;
 }
 
 /**
@@ -83,6 +88,7 @@ export class CarousselElementModel {
     private _country: string;
     private _description: string;
     private _price: number;
+    private _id: string;
 
     constructor(props: CarousselElementModelProps) {
         // Badge
@@ -107,6 +113,9 @@ export class CarousselElementModel {
 
         // Price
         this._price = Math.round(props.price);
+
+        // ID
+        this._id = props.id;
     }
 
     // Getters
@@ -175,4 +184,9 @@ export class CarousselElementModel {
      * @remarks The price is rounded to nearest integer.
      */
     public get price(): number { return this._price; }
+
+    /**
+     * Returns the activity's unique id.
+     */
+    public get id(): string { return this._id; }
 }
