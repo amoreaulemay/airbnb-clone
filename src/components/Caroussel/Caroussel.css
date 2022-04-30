@@ -6,6 +6,9 @@
     justify-content: start;
     align-items: center;
     overflow-x: scroll;
+    overflow-y: hidden;
     flex-wrap: nowrap;
-    width: fit-content;
+    width: calc(100% - 74px);
+    gap: 18px;
+    margin-bottom: 30px;
 }

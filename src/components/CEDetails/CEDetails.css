@@ -1,2 +1,29 @@
 /* Base class for CEDetails */
-.CEDetails--wrapper {}
+.CEDetails--wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.CEDetails--wrapper > span.description,
+.CEDetails--wrapper > span.price {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    /* identical to box height, or 13px */
+
+    color: #222222;
+}
+
+.CEDetails--wrapper > span.price > strong {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 110%;
+    /* identical to box height, or 13px */
+
+    color: #222222;
+}

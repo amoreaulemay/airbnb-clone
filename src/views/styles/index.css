@@ -6,3 +6,8 @@
     overflow-x: hidden;
     min-height: fit-content;
 }
+
+.AirBnBExperiences--wrapper header {
+    height: 74px;
+    margin-bottom: 26px;
+}

@@ -1,2 +1,37 @@
 /* Base class for CEReviews */
-.CEReviews--wrapper {}
+.CEReviews--wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: start;
+    align-items: baseline;
+    margin-bottom: 8px;
+}
+
+.CEReviews--wrapper > span.stars {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    /* identical to box height, or 13px */
+
+    color: #222222;
+}
+
+.CEReviews--wrapper > span.reviewsNb,
+.CEReviews--wrapper > span.country {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    /* identical to box height, or 13px */
+
+    color: #918e9b;
+}
+
+.CEReviews--wrapper > span.reviewsNb::after {
+    content: "\2022";
+    margin-left: 1px;
+}
